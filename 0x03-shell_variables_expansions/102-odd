@@ -1,4 +1,2 @@
 #!/bin/bash
-paste-- | cut -f1
-#!/bin/bash
-perl lne print if $. % 2 == 1 
+perl -lne'print if $. % 2 == 1'
